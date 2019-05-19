@@ -1,0 +1,870 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\activeobjectmgr.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\camera.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\client.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\clientenvironment.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\clientlauncher.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\clientmap.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\clientmedia.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\clientobject.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\clouds.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\content_cao.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\content_cso.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\content_mapblock.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\filecache.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\fontengine.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\game.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\gameui.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\guiscalingfilter.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\hud.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\imagefilters.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\inputhandler.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\joystick_controller.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\keycode.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\localplayer.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\mapblock_mesh.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\mesh.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\mesh_generator_thread.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\meshgen\collector.cpp">
+      <Filter>Source Files\client\meshgen</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\minimap.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\particles.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\render\anaglyph.cpp">
+      <Filter>Source Files\client\render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\render\core.cpp">
+      <Filter>Source Files\client\render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\render\factory.cpp">
+      <Filter>Source Files\client\render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\render\interlaced.cpp">
+      <Filter>Source Files\client\render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\render\pageflip.cpp">
+      <Filter>Source Files\client\render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\render\plain.cpp">
+      <Filter>Source Files\client\render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\render\sidebyside.cpp">
+      <Filter>Source Files\client\render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\render\stereo.cpp">
+      <Filter>Source Files\client\render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\renderingengine.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\shader.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\sky.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\sound.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\tile.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\client\wieldmesh.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\content\content.cpp">
+      <Filter>Source Files\content</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\content\mods.cpp">
+      <Filter>Source Files\content</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\content\packages.cpp">
+      <Filter>Source Files\content</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\content\subgames.cpp">
+      <Filter>Source Files\content</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\database\database-dummy.cpp">
+      <Filter>Source Files\database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\database\database-files.cpp">
+      <Filter>Source Files\database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\database\database-leveldb.cpp">
+      <Filter>Source Files\database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\database\database-postgresql.cpp">
+      <Filter>Source Files\database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\database\database-redis.cpp">
+      <Filter>Source Files\database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\database\database-sqlite3.cpp">
+      <Filter>Source Files\database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\database\database.cpp">
+      <Filter>Source Files\database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\gui\guiChatConsole.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\gui\guiConfirmRegistration.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\gui\guiEditBoxWithScrollbar.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\gui\guiEngine.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\gui\guiFormSpecMenu.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\gui\guiKeyChangeMenu.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\gui\guiPasswordChange.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\gui\guiPathSelectMenu.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\gui\guiTable.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\gui\guiVolumeChange.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\gui\intlGUIEditBox.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\gui\modalMenu.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\gui\profilergraph.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\irrlicht_changes\static_text.cpp">
+      <Filter>Source Files\irrlicht_changes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\mapgen\cavegen.cpp">
+      <Filter>Source Files\mapgen</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\mapgen\dungeongen.cpp">
+      <Filter>Source Files\mapgen</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\mapgen\mapgen.cpp">
+      <Filter>Source Files\mapgen</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\mapgen\mapgen_carpathian.cpp">
+      <Filter>Source Files\mapgen</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\mapgen\mapgen_flat.cpp">
+      <Filter>Source Files\mapgen</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\mapgen\mapgen_fractal.cpp">
+      <Filter>Source Files\mapgen</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\mapgen\mapgen_singlenode.cpp">
+      <Filter>Source Files\mapgen</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\mapgen\mapgen_v5.cpp">
+      <Filter>Source Files\mapgen</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\mapgen\mapgen_v6.cpp">
+      <Filter>Source Files\mapgen</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\mapgen\mapgen_v7.cpp">
+      <Filter>Source Files\mapgen</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\mapgen\mapgen_valleys.cpp">
+      <Filter>Source Files\mapgen</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\mapgen\mg_biome.cpp">
+      <Filter>Source Files\mapgen</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\mapgen\mg_decoration.cpp">
+      <Filter>Source Files\mapgen</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\mapgen\mg_ore.cpp">
+      <Filter>Source Files\mapgen</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\mapgen\mg_schematic.cpp">
+      <Filter>Source Files\mapgen</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\mapgen\treegen.cpp">
+      <Filter>Source Files\mapgen</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\network\address.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\network\clientopcodes.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\network\clientpackethandler.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\network\connection.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\network\connectionthreads.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\network\networkpacket.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\network\serveropcodes.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\network\serverpackethandler.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\network\socket.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\common\c_content.cpp">
+      <Filter>Source Files\script\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\common\c_converter.cpp">
+      <Filter>Source Files\script\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\common\c_internal.cpp">
+      <Filter>Source Files\script\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\common\c_types.cpp">
+      <Filter>Source Files\script\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\common\helper.cpp">
+      <Filter>Source Files\script\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\cpp_api\s_async.cpp">
+      <Filter>Source Files\script\cpp_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\cpp_api\s_base.cpp">
+      <Filter>Source Files\script\cpp_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\cpp_api\s_client.cpp">
+      <Filter>Source Files\script\cpp_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\cpp_api\s_entity.cpp">
+      <Filter>Source Files\script\cpp_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\cpp_api\s_env.cpp">
+      <Filter>Source Files\script\cpp_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\cpp_api\s_inventory.cpp">
+      <Filter>Source Files\script\cpp_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\cpp_api\s_item.cpp">
+      <Filter>Source Files\script\cpp_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\cpp_api\s_mainmenu.cpp">
+      <Filter>Source Files\script\cpp_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\cpp_api\s_modchannels.cpp">
+      <Filter>Source Files\script\cpp_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\cpp_api\s_node.cpp">
+      <Filter>Source Files\script\cpp_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\cpp_api\s_nodemeta.cpp">
+      <Filter>Source Files\script\cpp_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\cpp_api\s_player.cpp">
+      <Filter>Source Files\script\cpp_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\cpp_api\s_security.cpp">
+      <Filter>Source Files\script\cpp_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\cpp_api\s_server.cpp">
+      <Filter>Source Files\script\cpp_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_areastore.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_auth.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_base.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_camera.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_client.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_craft.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_env.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_http.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_inventory.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_item.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_itemstackmeta.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_localplayer.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_mainmenu.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_mapgen.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_metadata.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_minimap.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_modchannels.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_nodemeta.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_nodetimer.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_noise.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_object.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_particles.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_particles_local.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_playermeta.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_rollback.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_server.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_settings.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_sound.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_storage.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_util.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\lua_api\l_vmanip.cpp">
+      <Filter>Source Files\script\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\scripting_client.cpp">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\scripting_mainmenu.cpp">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\script\scripting_server.cpp">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\server\activeobjectmgr.cpp">
+      <Filter>Source Files\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\server\mods.cpp">
+      <Filter>Source Files\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\threading\event.cpp">
+      <Filter>Source Files\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\threading\semaphore.cpp">
+      <Filter>Source Files\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\threading\thread.cpp">
+      <Filter>Source Files\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_activeobject.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_address.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_areastore.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_authdatabase.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_ban.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_clientactiveobjectmgr.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_collision.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_compression.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_connection.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_eventmanager.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_filepath.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_gameui.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_inventory.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_irrptr.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_keycode.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_map_settings_manager.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_mapnode.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_modchannels.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_nodedef.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_noderesolver.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_noise.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_objdef.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_player.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_profiler.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_random.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_schematic.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_serialization.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_server_shutdown_state.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_serveractiveobjectmgr.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_servermodmanager.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_settings.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_socket.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_threading.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_utilities.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_voxelalgorithms.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_voxelarea.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\unittest\test_voxelmanipulator.cpp">
+      <Filter>Source Files\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\util\areastore.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\util\auth.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\util\base64.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\util\directiontables.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\util\enriched_string.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\util\ieee_float.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\util\numeric.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\util\pointedthing.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\util\serialize.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\util\sha1.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\util\sha256.c">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\util\srp.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\util\string.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\util\timetaker.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\ban.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\chat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\clientiface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\collision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\content_mapnode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\content_nodemeta.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\content_sao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\convert_json.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\craftdef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\defaultsettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\emerge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\environment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\face_position_cache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\filesys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\genericobject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\gettext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\httpfetch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\hud.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\inventory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\inventorymanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\itemdef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\itemstackmetadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\map_settings_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\mapblock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\mapnode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\mapsector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\metadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\modchannels.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\nameidmapping.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\nodedef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\nodemetadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\nodetimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\noise.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\objdef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\object_properties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\pathfinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\porting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\profiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\quicktune.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\raycast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\reflowscan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\remoteplayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\rollback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\rollback_interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\serialization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\serverenvironment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\serverlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\serverobject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\staticobject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\terminal_chat_console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\tileanimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\tool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\translation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\voxel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\prg\candlecove\custom\minetest\src\voxelalgorithms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\prg\candlecove\custom\minetest\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\prg\candlecove\custom\minetest\misc\winresource.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{551A9AC3-FDA5-39C5-B68A-C30CBF8C07C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\client">
+      <UniqueIdentifier>{225CE337-8F2B-35C7-BF7F-58CB6AC13DD1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\client\meshgen">
+      <UniqueIdentifier>{42DD113F-74E5-3550-BB5D-71CF76047E04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\client\render">
+      <UniqueIdentifier>{144182DA-E3B5-303E-B1B8-FFBC5593E8DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\content">
+      <UniqueIdentifier>{AC48827C-10C6-3875-95CF-B93BEE50B8B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\database">
+      <UniqueIdentifier>{066EDD18-FBA4-3051-9FBD-E33C41F31275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui">
+      <UniqueIdentifier>{5DF51920-8135-3EA7-B17B-71B9562D1424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\irrlicht_changes">
+      <UniqueIdentifier>{07C6DDFB-7460-3D92-833C-1164F2BA60F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mapgen">
+      <UniqueIdentifier>{66EF1F00-B8B0-324A-809B-457998D0C031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\network">
+      <UniqueIdentifier>{3F164575-2441-3182-B81F-717460CE2746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\script">
+      <UniqueIdentifier>{3E302597-DDB7-3A8D-A442-37E19EE51A9D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\script\common">
+      <UniqueIdentifier>{AB9C82C0-74F3-3CEE-BE45-62F3025FD59D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\script\cpp_api">
+      <UniqueIdentifier>{F25FDAC9-9196-3003-9495-5DE7E8FD1C2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\script\lua_api">
+      <UniqueIdentifier>{E5283521-5589-32C4-B7A9-B7E2F88C7960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\server">
+      <UniqueIdentifier>{BBFC85BB-1840-3CED-8D40-D3AB0E79EC83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\threading">
+      <UniqueIdentifier>{E3F789E7-9227-38C7-AAC9-919D5A47911F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\unittest">
+      <UniqueIdentifier>{02C95DFB-004E-3036-A913-5CEB94989E2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{7B070252-FAD2-322E-8895-6D00CFE0F150}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

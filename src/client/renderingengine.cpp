@@ -320,9 +320,6 @@ bool RenderingEngine::setWindowIcon()
 	HWND hWnd; // Window handle
 
 	switch (driver->getDriverType()) {
-	case video::EDT_DIRECT3D8:
-		hWnd = reinterpret_cast<HWND>(exposedData.D3D8.HWnd);
-		break;
 	case video::EDT_DIRECT3D9:
 		hWnd = reinterpret_cast<HWND>(exposedData.D3D9.HWnd);
 		break;
