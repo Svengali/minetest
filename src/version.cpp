@@ -24,7 +24,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 	#include "android_version.h"
 	#include "android_version_githash.h"
 #elif defined(USE_CMAKE_CONFIG_H)
-	#include "cmake_config_githash.h"
+	#include "../build/src/cmake_config_githash.h"
 #endif
 
 #ifndef VERSION_GITHASH
