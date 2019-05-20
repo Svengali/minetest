@@ -52,7 +52,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\..\..\minetest\lib\lua\src;..\..\..\..\minetest\build\lib\lua\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\lib\lua\src;..\..\..\..\build\lib\lua\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsC</CompileAs>
@@ -70,10 +70,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;LUA_BUILD_AS_DLL;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\..\..\minetest\lib\lua\src;..\..\..\..\minetest\build\lib\lua\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\lib\lua\src;..\..\..\..\build\lib\lua\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>..\..\..\..\minetest\lib\lua\src;..\..\..\..\minetest\build\lib\lua\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\lib\lua\src;..\..\..\..\build\lib\lua\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -86,7 +86,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\..\..\minetest\lib\lua\src;..\..\..\..\minetest\build\lib\lua\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\lib\lua\src;..\..\..\..\build\lib\lua\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <ExceptionHandling>
@@ -104,10 +104,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;LUA_BUILD_AS_DLL;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\..\..\minetest\lib\lua\src;..\..\..\..\minetest\build\lib\lua\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\lib\lua\src;..\..\..\..\build\lib\lua\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>..\..\..\..\minetest\lib\lua\src;..\..\..\..\minetest\build\lib\lua\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\lib\lua\src;..\..\..\..\build\lib\lua\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -119,35 +119,35 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\minetest\lib\lua\src\lapi.c" />
-    <ClCompile Include="..\..\..\..\minetest\lib\lua\src\lauxlib.c" />
-    <ClCompile Include="..\..\..\..\minetest\lib\lua\src\lbaselib.c" />
-    <ClCompile Include="..\..\..\..\minetest\lib\lua\src\lcode.c" />
-    <ClCompile Include="..\..\..\..\minetest\lib\lua\src\ldblib.c" />
-    <ClCompile Include="..\..\..\..\minetest\lib\lua\src\ldebug.c" />
-    <ClCompile Include="..\..\..\..\minetest\lib\lua\src\ldo.c" />
-    <ClCompile Include="..\..\..\..\minetest\lib\lua\src\ldump.c" />
-    <ClCompile Include="..\..\..\..\minetest\lib\lua\src\lfunc.c" />
-    <ClCompile Include="..\..\..\..\minetest\lib\lua\src\lgc.c" />
-    <ClCompile Include="..\..\..\..\minetest\lib\lua\src\linit.c" />
-    <ClCompile Include="..\..\..\..\minetest\lib\lua\src\liolib.c" />
-    <ClCompile Include="..\..\..\..\minetest\lib\lua\src\llex.c" />
-    <ClCompile Include="..\..\..\..\minetest\lib\lua\src\lmathlib.c" />
-    <ClCompile Include="..\..\..\..\minetest\lib\lua\src\lmem.c" />
-    <ClCompile Include="..\..\..\..\minetest\lib\lua\src\loadlib.c" />
-    <ClCompile Include="..\..\..\..\minetest\lib\lua\src\lobject.c" />
-    <ClCompile Include="..\..\..\..\minetest\lib\lua\src\lopcodes.c" />
-    <ClCompile Include="..\..\..\..\minetest\lib\lua\src\loslib.c" />
-    <ClCompile Include="..\..\..\..\minetest\lib\lua\src\lparser.c" />
-    <ClCompile Include="..\..\..\..\minetest\lib\lua\src\lstate.c" />
-    <ClCompile Include="..\..\..\..\minetest\lib\lua\src\lstring.c" />
-    <ClCompile Include="..\..\..\..\minetest\lib\lua\src\lstrlib.c" />
-    <ClCompile Include="..\..\..\..\minetest\lib\lua\src\ltable.c" />
-    <ClCompile Include="..\..\..\..\minetest\lib\lua\src\ltablib.c" />
-    <ClCompile Include="..\..\..\..\minetest\lib\lua\src\ltm.c" />
-    <ClCompile Include="..\..\..\..\minetest\lib\lua\src\lundump.c" />
-    <ClCompile Include="..\..\..\..\minetest\lib\lua\src\lvm.c" />
-    <ClCompile Include="..\..\..\..\minetest\lib\lua\src\lzio.c" />
+    <ClCompile Include="..\..\..\..\lib\lua\src\lapi.c" />
+    <ClCompile Include="..\..\..\..\lib\lua\src\lauxlib.c" />
+    <ClCompile Include="..\..\..\..\lib\lua\src\lbaselib.c" />
+    <ClCompile Include="..\..\..\..\lib\lua\src\lcode.c" />
+    <ClCompile Include="..\..\..\..\lib\lua\src\ldblib.c" />
+    <ClCompile Include="..\..\..\..\lib\lua\src\ldebug.c" />
+    <ClCompile Include="..\..\..\..\lib\lua\src\ldo.c" />
+    <ClCompile Include="..\..\..\..\lib\lua\src\ldump.c" />
+    <ClCompile Include="..\..\..\..\lib\lua\src\lfunc.c" />
+    <ClCompile Include="..\..\..\..\lib\lua\src\lgc.c" />
+    <ClCompile Include="..\..\..\..\lib\lua\src\linit.c" />
+    <ClCompile Include="..\..\..\..\lib\lua\src\liolib.c" />
+    <ClCompile Include="..\..\..\..\lib\lua\src\llex.c" />
+    <ClCompile Include="..\..\..\..\lib\lua\src\lmathlib.c" />
+    <ClCompile Include="..\..\..\..\lib\lua\src\lmem.c" />
+    <ClCompile Include="..\..\..\..\lib\lua\src\loadlib.c" />
+    <ClCompile Include="..\..\..\..\lib\lua\src\lobject.c" />
+    <ClCompile Include="..\..\..\..\lib\lua\src\lopcodes.c" />
+    <ClCompile Include="..\..\..\..\lib\lua\src\loslib.c" />
+    <ClCompile Include="..\..\..\..\lib\lua\src\lparser.c" />
+    <ClCompile Include="..\..\..\..\lib\lua\src\lstate.c" />
+    <ClCompile Include="..\..\..\..\lib\lua\src\lstring.c" />
+    <ClCompile Include="..\..\..\..\lib\lua\src\lstrlib.c" />
+    <ClCompile Include="..\..\..\..\lib\lua\src\ltable.c" />
+    <ClCompile Include="..\..\..\..\lib\lua\src\ltablib.c" />
+    <ClCompile Include="..\..\..\..\lib\lua\src\ltm.c" />
+    <ClCompile Include="..\..\..\..\lib\lua\src\lundump.c" />
+    <ClCompile Include="..\..\..\..\lib\lua\src\lvm.c" />
+    <ClCompile Include="..\..\..\..\lib\lua\src\lzio.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

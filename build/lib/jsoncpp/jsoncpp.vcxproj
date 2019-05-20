@@ -117,14 +117,6 @@
   <ItemGroup>
     <ClCompile Include="..\..\..\lib\jsoncpp\jsoncpp.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="C:\prg\candlecove\custom\minetest\build\ZERO_CHECK.vcxproj">
-      <Project>{111C64B5-6170-3DDE-A73B-A73E1256EFEB}</Project>
-      <Name>ZERO_CHECK</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -115,7 +115,7 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\minetest\lib\gmp\mini-gmp.c" />
+    <ClCompile Include="..\..\..\lib\gmp\mini-gmp.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
