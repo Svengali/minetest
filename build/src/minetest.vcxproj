@@ -56,7 +56,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\src;..\..\..\irrlicht\include;..\..\lib\jsoncpp;..\..\lib\lua\src;..\..\lib\gmp;..\..\..\sqlite.cmake.build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\src;..\..\src\script;..\..\lib\jsoncpp;..\..\lib\lua\src;..\..\lib\gmp;..\..\..\irrlicht\include;..\..\..\zlib\build;..\..\..\sqlite.cmake.build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -87,7 +87,7 @@
     </Midl>
     <Link>
       <AdditionalDependencies>zlib.lib;..\..\..\irrlicht\lib\Win64-visualStudio\Irrlicht.lib;..\..\..\sqlite.cmake.build\build\Release\sqlite3-static.lib;..\lib\lua\build\Debug\lua.lib;..\lib\gmp\Debug\gmp.lib;..\lib\jsoncpp\Debug\jsoncpp.lib;ws2_32.lib;version.lib;shlwapi.lib;dbghelp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>../../zlib/build/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../../../zlib/build/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -98,13 +98,10 @@
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
-    <Manifest>
-      <AdditionalManifestFiles>..\..\..\misc\$(Configuration)\minetest.exe.manifest;</AdditionalManifestFiles>
-    </Manifest>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\src;..\..\..\irrlicht\include;..\..\lib\jsoncpp;..\..\lib\lua\src;..\..\lib\gmp;..\..\..\sqlite.cmake.build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\src;..\..\src\script;..\..\lib\jsoncpp;..\..\lib\lua\src;..\..\lib\gmp;..\..\..\irrlicht\include;..\..\..\zlib\build;..\..\..\sqlite.cmake.build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /FD</AdditionalOptions>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <BufferSecurityCheck>false</BufferSecurityCheck>
@@ -137,7 +134,7 @@
     </Midl>
     <Link>
       <AdditionalDependencies>zlib.lib;..\..\..\irrlicht\lib\Win64-visualStudio\Irrlicht.lib;..\..\..\sqlite.cmake.build\build\Release\sqlite3-static.lib;..\lib\lua\build\Debug\lua.lib;..\lib\gmp\Debug\gmp.lib;..\lib\jsoncpp\Debug\jsoncpp.lib;ws2_32.lib;version.lib;shlwapi.lib;dbghelp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>../../zlib/build/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../../../zlib/build/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>

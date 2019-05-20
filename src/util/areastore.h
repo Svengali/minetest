@@ -28,7 +28,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 #include "util/container.h"
 #include "util/numeric.h"
 #ifndef ANDROID
-	#include "cmake_config.h"
+	#include "../build/src/cmake_config.h"
 #endif
 #if USE_SPATIAL
 	#include <spatialindex/SpatialIndex.h>
