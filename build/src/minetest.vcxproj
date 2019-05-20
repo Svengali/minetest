@@ -90,7 +90,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>zlib.lib;..\..\..\irrlicht\lib\Win64-visualStudio\Irrlicht.lib;..\..\..\sqlite.cmake.build\build\Release\sqlite3-static.lib;..\lib\lua\build\Debug\lua.lib;..\lib\gmp\Debug\gmp.lib;..\lib\jsoncpp\Debug\jsoncpp.lib;ws2_32.lib;version.lib;shlwapi.lib;dbghelp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>zlib.lib;..\..\..\irrlicht\lib\Win64-visualStudio\Irrlicht.lib;..\..\..\sqlite.cmake.build\build\Debug\sqlite3-static.lib;..\lib\lua\build\Debug\lua.lib;..\lib\gmp\Debug\gmp.lib;..\lib\jsoncpp\Debug\jsoncpp.lib;ws2_32.lib;version.lib;shlwapi.lib;dbghelp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>../../../zlib/build/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -145,7 +145,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>zlib.lib;..\..\..\irrlicht\lib\Win64-visualStudio\Irrlicht.lib;..\..\..\sqlite.cmake.build\build\Release\sqlite3-static.lib;..\lib\lua\build\Debug\lua.lib;..\lib\gmp\Debug\gmp.lib;..\lib\jsoncpp\Debug\jsoncpp.lib;ws2_32.lib;version.lib;shlwapi.lib;dbghelp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>zlib.lib;..\..\..\irrlicht\lib\Win64-visualStudio\Irrlicht.lib;..\..\..\sqlite.cmake.build\build\Release\sqlite3-static.lib;..\lib\lua\build\Release\lua.lib;..\lib\gmp\Release\gmp.lib;..\lib\jsoncpp\Release\jsoncpp.lib;ws2_32.lib;version.lib;shlwapi.lib;dbghelp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>../../../zlib/build/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -161,9 +161,6 @@
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
-    <Manifest>
-      <AdditionalManifestFiles>..\..\..\misc\$(Configuration)\minetest.exe.manifest;</AdditionalManifestFiles>
-    </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\client\activeobjectmgr.cpp">
@@ -457,6 +454,15 @@
     <ProjectReference Include="..\..\..\zlib\build\zlib.vcxproj">
       <Project>{67175116-a72e-3bd1-945f-7d24a1e28530}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\lib\gmp\gmp.vcxproj">
+      <Project>{7780c715-625d-3757-a40c-92488c3e39cf}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\lib\jsoncpp\jsoncpp.vcxproj">
+      <Project>{c019bcec-3b27-36f7-a9e8-995f41837236}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\lib\lua\build\lua.vcxproj">
+      <Project>{e2aa5ddc-1e95-3424-8692-118805c40e35}</Project>
+    </ProjectReference>
     <ProjectReference Include="GenerateVersion.vcxproj">
       <Project>{EF1613D2-DFD8-3B9D-BF64-7034B0E28CC6}</Project>
       <Name>GenerateVersion</Name>
@@ -480,6 +486,9 @@
       <Name>lua</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="minetestserver.vcxproj">
+      <Project>{df444af2-7739-3969-9ea7-47aa9a9fa89b}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

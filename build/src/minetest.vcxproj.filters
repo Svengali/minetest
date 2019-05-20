@@ -804,9 +804,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\src\CMakeLists.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ResourceCompile Include="..\..\misc\winresource.rc">
       <Filter>Source Files</Filter>
     </ResourceCompile>
