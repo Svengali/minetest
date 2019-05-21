@@ -1,0 +1,24 @@
+
+
+-------------
+  Separator
+-------------
+
+2019-05-15 18:22:01: ACTION[Main]: World at [C:\Users\marcs\Downloads\minetest-5.0.1-win64\bin\..\worlds\Server]
+2019-05-15 18:22:01: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:58025.
+2019-05-15 18:22:01: WARNING[Main]: Client side scripting is disabled by client.
+2019-05-15 18:22:02: ACTION[Server]: singleplayer [127.0.0.1] joins game. 
+2019-05-15 18:22:02: ACTION[Server]: singleplayer joins game. List of players: singleplayer
+2019-05-15 18:23:12: ACTION[Server]: singleplayer digs default:dirt_with_dry_grass at (-82,1,-211)
+2019-05-15 18:23:13: ACTION[Server]: singleplayer digs default:dirt_with_dry_grass at (-82,1,-210)
+2019-05-15 18:23:17: ACTION[Server]: singleplayer digs default:dirt_with_dry_grass at (-82,1,-209)
+2019-05-15 18:23:19: ACTION[Server]: singleplayer digs default:dirt_with_dry_grass at (-82,1,-208)
+2019-05-15 18:23:20: ACTION[Server]: singleplayer digs default:dry_grass_4 at (-83,2,-208)
+2019-05-15 18:23:21: ACTION[Server]: singleplayer digs default:dirt_with_dry_grass at (-83,1,-208)
+2019-05-15 18:23:23: ACTION[Server]: singleplayer digs default:dirt_with_dry_grass at (-84,1,-208)
+2019-05-15 18:26:15: ACTION[Server]: singleplayer places node default:dirt at (-442,7,-367)
+2019-05-15 18:26:17: ACTION[Server]: singleplayer places node default:dirt at (-442,8,-367)
+2019-05-15 18:26:18: ACTION[Server]: singleplayer digs default:dirt at (-442,8,-367)
+2019-05-15 18:26:19: ACTION[Server]: singleplayer digs default:dirt at (-442,7,-367)
+2019-05-15 18:26:44: ACTION[Server]: singleplayer activates default:dirt
+2019-05-15 18:27:06: ACTION[Main]: Server: Shutting down

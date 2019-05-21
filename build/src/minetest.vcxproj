@@ -68,11 +68,11 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_DEPRECATE;_USE_MATH_DEFINES;NOMINMAX;USE_CMAKE_CONFIG_H;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32_LEAN_AND_MEAN;_IRR_STATIC_LIB_;_CRT_SECURE_NO_DEPRECATE;_USE_MATH_DEFINES;NOMINMAX;USE_CMAKE_CONFIG_H;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <EnableEnhancedInstructionSet>AdvancedVectorExtensions</EnableEnhancedInstructionSet>
       <FloatingPointModel>Fast</FloatingPointModel>
@@ -90,7 +90,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>zlib.lib;..\..\..\irrlicht\lib\Win64-visualStudio\Irrlicht.lib;..\..\..\sqlite.cmake.build\build\Debug\sqlite3-static.lib;..\lib\lua\build\Debug\lua.lib;..\lib\gmp\Debug\gmp.lib;..\lib\jsoncpp\Debug\jsoncpp.lib;ws2_32.lib;version.lib;shlwapi.lib;dbghelp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\..\irrlicht\lib\Win64-visualStudio\$(Configuration)\Irrlicht.lib;..\..\..\sqlite.cmake.build\build\Debug\sqlite3-static.lib;..\lib\lua\build\Debug\lua.lib;..\lib\gmp\Debug\gmp.lib;..\lib\jsoncpp\Debug\jsoncpp.lib;ws2_32.lib;version.lib;shlwapi.lib;dbghelp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>../../../zlib/build/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -121,7 +121,7 @@
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
       <WholeProgramOptimization>true</WholeProgramOptimization>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32_LEAN_AND_MEAN;NDEBUG;_HAS_ITERATOR_DEBUGGING=0;_CRT_SECURE_NO_DEPRECATE;_USE_MATH_DEFINES;NOMINMAX;USE_CMAKE_CONFIG_H;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32_LEAN_AND_MEAN;_IRR_STATIC_LIB_;NDEBUG;_HAS_ITERATOR_DEBUGGING=0;_CRT_SECURE_NO_DEPRECATE;_USE_MATH_DEFINES;NOMINMAX;USE_CMAKE_CONFIG_H;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <EnableEnhancedInstructionSet>AdvancedVectorExtensions</EnableEnhancedInstructionSet>
       <StringPooling>true</StringPooling>
@@ -145,7 +145,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>zlib.lib;..\..\..\irrlicht\lib\Win64-visualStudio\Irrlicht.lib;..\..\..\sqlite.cmake.build\build\Release\sqlite3-static.lib;..\lib\lua\build\Release\lua.lib;..\lib\gmp\Release\gmp.lib;..\lib\jsoncpp\Release\jsoncpp.lib;ws2_32.lib;version.lib;shlwapi.lib;dbghelp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\..\irrlicht\lib\Win64-visualStudio\$(Configuration)\Irrlicht.lib;..\..\..\sqlite.cmake.build\build\Release\sqlite3-static.lib;..\lib\lua\build\Release\lua.lib;..\lib\gmp\Release\gmp.lib;..\lib\jsoncpp\Release\jsoncpp.lib;ws2_32.lib;version.lib;shlwapi.lib;dbghelp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>../../../zlib/build/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -166,7 +166,9 @@
     <ClCompile Include="..\..\src\client\activeobjectmgr.cpp">
       <ObjectFileName>$(IntDir)/client/activeobjectmgr.cpp.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="..\..\src\client\camera.cpp" />
+    <ClCompile Include="..\..\src\client\camera.cpp">
+      <RuntimeLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
     <ClCompile Include="..\..\src\client\client.cpp" />
     <ClCompile Include="..\..\src\client\clientenvironment.cpp" />
     <ClCompile Include="..\..\src\client\clientlauncher.cpp" />

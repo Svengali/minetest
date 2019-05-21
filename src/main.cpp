@@ -61,6 +61,24 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 #define DEBUGFILE "debug.txt"
 #define DEFAULT_SERVER_PORT 30000
 
+size_t getSize( void *_Block )
+{
+    return _msize( _Block );
+}
+
+
+extern "C" {
+
+size_t _msize(_Pre_notnull_ void *_Block)
+{
+
+    return getSize(_Block);
+
+}
+
+}
+
+
 typedef std::map<std::string, ValueSpec> OptionList;
 
 /**********************************************************************

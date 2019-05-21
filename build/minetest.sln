@@ -292,8 +292,8 @@ Global
 		{67175116-A72E-3BD1-945F-7D24A1E28530}.Static lib - Release|x64.Build.0 = Release|x64
 		{67175116-A72E-3BD1-945F-7D24A1E28530}.Static lib - Release|x86.ActiveCfg = Release|x64
 		{67175116-A72E-3BD1-945F-7D24A1E28530}.Static lib - Release|x86.Build.0 = Release|x64
-		{DD5C43CB-34A8-409B-9010-5A5A52787552}.Debug|x64.ActiveCfg = Debug|x64
-		{DD5C43CB-34A8-409B-9010-5A5A52787552}.Debug|x64.Build.0 = Debug|x64
+		{DD5C43CB-34A8-409B-9010-5A5A52787552}.Debug|x64.ActiveCfg = Static lib - Debug|x64
+		{DD5C43CB-34A8-409B-9010-5A5A52787552}.Debug|x64.Build.0 = Static lib - Debug|x64
 		{DD5C43CB-34A8-409B-9010-5A5A52787552}.Debug|x86.ActiveCfg = Debug|Win32
 		{DD5C43CB-34A8-409B-9010-5A5A52787552}.Debug|x86.Build.0 = Debug|Win32
 		{DD5C43CB-34A8-409B-9010-5A5A52787552}.MinSizeRel|x64.ActiveCfg = Static lib - Debug|x64
@@ -304,8 +304,8 @@ Global
 		{DD5C43CB-34A8-409B-9010-5A5A52787552}.Release - Fast FPU|x64.Build.0 = Release - Fast FPU|x64
 		{DD5C43CB-34A8-409B-9010-5A5A52787552}.Release - Fast FPU|x86.ActiveCfg = Release - Fast FPU|Win32
 		{DD5C43CB-34A8-409B-9010-5A5A52787552}.Release - Fast FPU|x86.Build.0 = Release - Fast FPU|Win32
-		{DD5C43CB-34A8-409B-9010-5A5A52787552}.Release|x64.ActiveCfg = Release|x64
-		{DD5C43CB-34A8-409B-9010-5A5A52787552}.Release|x64.Build.0 = Release|x64
+		{DD5C43CB-34A8-409B-9010-5A5A52787552}.Release|x64.ActiveCfg = Static lib - Release - Fast FPU|x64
+		{DD5C43CB-34A8-409B-9010-5A5A52787552}.Release|x64.Build.0 = Static lib - Release - Fast FPU|x64
 		{DD5C43CB-34A8-409B-9010-5A5A52787552}.Release|x86.ActiveCfg = Release|Win32
 		{DD5C43CB-34A8-409B-9010-5A5A52787552}.Release|x86.Build.0 = Release|Win32
 		{DD5C43CB-34A8-409B-9010-5A5A52787552}.RelWithDebInfo|x64.ActiveCfg = Release - Fast FPU|x64

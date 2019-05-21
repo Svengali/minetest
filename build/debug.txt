@@ -1,0 +1,64 @@
+
+
+-------------
+  Separator
+-------------
+
+2019-05-20 21:12:28: ERROR[Main]: Subgame specified in default_game [minetest] is invalid.
+2019-05-20 21:12:42: ERROR[Main]: FontEngine: Default font file: 
+2019-05-20 21:12:42: ERROR[Main]: 	"C:\prg\candlecove2\custom\minetest\build\src\..\bin\Debug\..\..\fonts\mono_dejavu_sans"
+2019-05-20 21:12:42: ERROR[Main]: 	required for current screen configuration was not found or was invalid file format.
+2019-05-20 21:12:42: ERROR[Main]: 	Using irrlicht default font.
+2019-05-20 21:12:42: ERROR[AsyncWorker-0]: Execution of async base environment failed: Failed to load and run script from C:\prg\candlecove2\custom\minetest\build\src\..\bin\Debug\..\..\builtin\init.lua:
+2019-05-20 21:12:42: ERROR[AsyncWorker-0]: cannot open C:\prg\candlecove2\custom\minetest\build\src\..\bin\Debug\..\..\builtin\init.lua: No such file or directory
+2019-05-20 21:12:42: ERROR[AsyncWorker-0]: In thread 860c:
+2019-05-20 21:12:42: ERROR[AsyncWorker-1]: In thread 860c:Execution of async base environment failed: Failed to load and run script from C:\prg\candlecove2\custom\minetest\build\src\..\bin\Debug\..\..\builtin\init.lua:
+2019-05-20 21:12:42: ERROR[AsyncWorker-2]: In thread 860c:Execution of async base environment failed: Failed to load and run script from C:\prg\candlecove2\custom\minetest\build\src\..\bin\Debug\..\..\builtin\init.lua:Execution of async base environment failed: Failed to load and run script from C:
+2019-05-20 21:12:42: ERROR[AsyncWorker-0]: ..\..\src\script\cpp_api\s_async.cpp:ea: AsyncWorkerThread::run: A fatal error occurred: Execution of async base environment failed
+2019-05-20 21:12:42: ERROR[AsyncWorker-1]: cannot open C:\prg\candlecove2\custom\minetest\build\src\..\bin\Debug\..\..\builtin\init.lua: No such file or directory
+2019-05-20 21:12:42: ERROR[AsyncWorker-2]: \prg\candlecove2\custom\minetest\build\src\..\bin\Debug\..\..\builtin\init.lua:
+2019-05-20 21:12:42: ERROR[AsyncWorker-1]: In thread 5168:
+2019-05-20 21:12:42: ERROR[AsyncWorker-2]: cannot open C:\prg\candlecove2\custom\minetest\build\src\..\bin\Debug\..\..\builtin\init.lua: No such file or directory
+2019-05-20 21:12:42: ERROR[AsyncWorker-3]: cannot open C:\prg\candlecove2\custom\minetest\build\src\..\bin\Debug\..\..\builtin\init.lua: No such file or directoryExecution of async base environment failed: Failed to load and run script from C:\prg\candlecove2\custom\minetest\build\src\..\bin\Debug\
+2019-05-20 21:12:42: ERROR[AsyncWorker-1]: ..\..\src\script\cpp_api\s_async.cpp:ea: AsyncWorkerThread::run: A fatal error occurred: Execution of async base environment failed
+2019-05-20 21:12:42: ERROR[AsyncWorker-2]: In thread 9824:
+2019-05-20 21:12:42: ERROR[Main]: In thread 9824:GUIEngine: execution of menu script failed: Failed to load and run script from C:\prg\candlecove2\custom\minetest\build\src\..\bin\Debug\..\..\builtin\init.lua:
+2019-05-20 21:12:42: ERROR[AsyncWorker-3]: ..\..\builtin\init.lua:
+2019-05-20 21:12:42: ERROR[AsyncWorker-2]: ..\..\src\script\cpp_api\s_async.cpp:ea: AsyncWorkerThread::run: A fatal error occurred: Execution of async base environment failed
+2019-05-20 21:12:42: ERROR[Main]: cannot open C:\prg\candlecove2\custom\minetest\build\src\..\bin\Debug\..\..\builtin\init.lua: No such file or directory
+2019-05-20 21:12:42: ERROR[AsyncWorker-3]: cannot open C:\prg\candlecove2\custom\minetest\build\src\..\bin\Debug\..\..\builtin\init.lua: No such file or directory
+2019-05-20 21:12:42: ERROR[Main]: No future without main menu!
+2019-05-20 21:12:42: ERROR[AsyncWorker-3]: In thread aff8:
+2019-05-20 21:12:42: ERROR[AsyncWorker-3]: ..\..\src\script\cpp_api\s_async.cpp:ea: AsyncWorkerThread::run: A fatal error occurred: Execution of async base environment failed
+
+
+-------------
+  Separator
+-------------
+
+2019-05-20 21:14:09: ERROR[Main]: Subgame specified in default_game [minetest] is invalid.
+2019-05-20 21:14:10: ERROR[Main]: FontEngine: Default font file: 
+2019-05-20 21:14:10: ERROR[Main]: 	"C:\prg\candlecove2\custom\minetest\build\src\..\bin\Debug\..\..\fonts\mono_dejavu_sans"
+2019-05-20 21:14:10: ERROR[Main]: 	required for current screen configuration was not found or was invalid file format.
+2019-05-20 21:14:10: ERROR[Main]: 	Using irrlicht default font.
+2019-05-20 21:14:10: ERROR[AsyncWorker-0]: Execution of async base environment failed: Failed to load and run script from C:\prg\candlecove2\custom\minetest\build\src\..\bin\Debug\..\..\builtin\init.lua:
+2019-05-20 21:14:10: ERROR[AsyncWorker-0]: cannot open C:\prg\candlecove2\custom\minetest\build\src\..\bin\Debug\..\..\builtin\init.lua: No such file or directory
+2019-05-20 21:14:10: ERROR[AsyncWorker-0]: In thread 7ffc:
+2019-05-20 21:14:10: ERROR[AsyncWorker-1]: In thread 7ffc:Execution of async base environment failed: Failed to load and run script from C:\prg\candlecove2\custom\minetest\build\src\..\bin\Debug\..\..\builtin\init.lua:
+2019-05-20 21:14:10: ERROR[AsyncWorker-2]: In thread 7ffc:Execution of async base environment failed: Failed to load and run script from C:\prg\candlecove2\custom\minetest\build\src\..\bin\Debug\..\..\builtin\init.lua:Execution of async base environment failed: Failed to load and run script from C:
+2019-05-20 21:14:10: ERROR[AsyncWorker-0]: ..\..\src\script\cpp_api\s_async.cpp:ea: AsyncWorkerThread::run: A fatal error occurred: Execution of async base environment failed
+2019-05-20 21:14:10: ERROR[AsyncWorker-1]: cannot open C:\prg\candlecove2\custom\minetest\build\src\..\bin\Debug\..\..\builtin\init.lua: No such file or directory
+2019-05-20 21:14:10: ERROR[AsyncWorker-2]: \prg\candlecove2\custom\minetest\build\src\..\bin\Debug\..\..\builtin\init.lua:
+2019-05-20 21:14:10: ERROR[AsyncWorker-1]: In thread a8d8:
+2019-05-20 21:14:10: ERROR[AsyncWorker-2]: cannot open C:\prg\candlecove2\custom\minetest\build\src\..\bin\Debug\..\..\builtin\init.lua: No such file or directory
+2019-05-20 21:14:10: ERROR[AsyncWorker-3]: cannot open C:\prg\candlecove2\custom\minetest\build\src\..\bin\Debug\..\..\builtin\init.lua: No such file or directoryExecution of async base environment failed: Failed to load and run script from C:\prg\candlecove2\custom\minetest\build\src\..\bin\Debug\
+2019-05-20 21:14:10: ERROR[AsyncWorker-1]: ..\..\src\script\cpp_api\s_async.cpp:ea: AsyncWorkerThread::run: A fatal error occurred: Execution of async base environment failed
+2019-05-20 21:14:10: ERROR[AsyncWorker-2]: In thread ab84:
+2019-05-20 21:14:10: ERROR[Main]: In thread ab84:GUIEngine: execution of menu script failed: Failed to load and run script from C:\prg\candlecove2\custom\minetest\build\src\..\bin\Debug\..\..\builtin\init.lua:
+2019-05-20 21:14:10: ERROR[AsyncWorker-3]: ..\..\builtin\init.lua:
+2019-05-20 21:14:10: ERROR[AsyncWorker-2]: ..\..\src\script\cpp_api\s_async.cpp:ea: AsyncWorkerThread::run: A fatal error occurred: Execution of async base environment failed
+2019-05-20 21:14:10: ERROR[Main]: cannot open C:\prg\candlecove2\custom\minetest\build\src\..\bin\Debug\..\..\builtin\init.lua: No such file or directory
+2019-05-20 21:14:10: ERROR[AsyncWorker-3]: cannot open C:\prg\candlecove2\custom\minetest\build\src\..\bin\Debug\..\..\builtin\init.lua: No such file or directory
+2019-05-20 21:14:10: ERROR[Main]: No future without main menu!
+2019-05-20 21:14:10: ERROR[AsyncWorker-3]: In thread 156c:
+2019-05-20 21:14:11: ERROR[AsyncWorker-3]: ..\..\src\script\cpp_api\s_async.cpp:ea: AsyncWorkerThread::run: A fatal error occurred: Execution of async base environment failed

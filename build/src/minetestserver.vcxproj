@@ -68,7 +68,7 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
@@ -90,13 +90,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>zlib.lib;..\..\..\sqlite.cmake.build\build\Release\sqlite3-static.lib;..\lib\jsoncpp\Debug\jsoncpp.lib;..\lib\lua\build\Debug\lua.lib;..\lib\gmp\Debug\gmp.lib;ws2_32.lib;version.lib;shlwapi.lib;dbghelp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>libcmtd.lib;zlib.lib;..\..\..\sqlite.cmake.build\build\Release\sqlite3-static.lib;..\lib\jsoncpp\Debug\jsoncpp.lib;..\lib\lua\build\Debug\lua.lib;..\lib\gmp\Debug\gmp.lib;libvcruntimed.lib;ws2_32.lib;version.lib;shlwapi.lib;dbghelp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>../../../zlib/build/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImportLibrary>C:/prg/candlecove/custom/minetest/bin/Debug/minetestserver.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/prg/candlecove/custom/minetest/bin/Debug/minetestserver.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>minetestserver.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
