@@ -451,6 +451,9 @@
     <ProjectReference Include="..\..\..\irrlicht\source\Irrlicht\Irrlicht15.0.vcxproj">
       <Project>{dd5c43cb-34a8-409b-9010-5a5a52787552}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\..\..\sqlite.cmake.build\build\sqlite3-static.vcxproj">
+      <Project>{90c36d2b-31f9-382d-804d-6ad6ca9e78dc}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\zlib\build\zlib.vcxproj">
       <Project>{67175116-a72e-3bd1-945f-7d24a1e28530}</Project>
     </ProjectReference>

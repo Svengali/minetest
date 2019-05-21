@@ -30,6 +30,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "..\..\zlib\build\zl
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Irrlicht", "..\..\irrlicht\source\Irrlicht\Irrlicht15.0.vcxproj", "{DD5C43CB-34A8-409B-9010-5A5A52787552}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sqlite3-static", "..\..\sqlite.cmake.build\build\sqlite3-static.vcxproj", "{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -326,6 +328,40 @@ Global
 		{DD5C43CB-34A8-409B-9010-5A5A52787552}.Static lib - Release|x64.Build.0 = Static lib - Release|x64
 		{DD5C43CB-34A8-409B-9010-5A5A52787552}.Static lib - Release|x86.ActiveCfg = Static lib - Release|Win32
 		{DD5C43CB-34A8-409B-9010-5A5A52787552}.Static lib - Release|x86.Build.0 = Static lib - Release|Win32
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.Debug|x64.ActiveCfg = Debug|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.Debug|x64.Build.0 = Debug|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.Debug|x86.ActiveCfg = Debug|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.MinSizeRel|x64.ActiveCfg = Release|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.MinSizeRel|x64.Build.0 = Release|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.MinSizeRel|x86.ActiveCfg = Release|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.MinSizeRel|x86.Build.0 = Release|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.Release - Fast FPU|x64.ActiveCfg = Release|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.Release - Fast FPU|x64.Build.0 = Release|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.Release - Fast FPU|x86.ActiveCfg = Release|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.Release - Fast FPU|x86.Build.0 = Release|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.Release|x64.ActiveCfg = Release|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.Release|x64.Build.0 = Release|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.Release|x86.ActiveCfg = Release|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.RelWithDebInfo|x64.ActiveCfg = Release|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.RelWithDebInfo|x64.Build.0 = Release|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.RelWithDebInfo|x86.ActiveCfg = Release|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.RelWithDebInfo|x86.Build.0 = Release|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.SDL-Debug|x64.ActiveCfg = Debug|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.SDL-Debug|x64.Build.0 = Debug|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.SDL-Debug|x86.ActiveCfg = Release|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.SDL-Debug|x86.Build.0 = Release|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.Static lib - Debug|x64.ActiveCfg = Debug|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.Static lib - Debug|x64.Build.0 = Debug|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.Static lib - Debug|x86.ActiveCfg = Release|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.Static lib - Debug|x86.Build.0 = Release|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.Static lib - Release - Fast FPU|x64.ActiveCfg = Release|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.Static lib - Release - Fast FPU|x64.Build.0 = Release|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.Static lib - Release - Fast FPU|x86.ActiveCfg = Release|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.Static lib - Release - Fast FPU|x86.Build.0 = Release|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.Static lib - Release|x64.ActiveCfg = Release|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.Static lib - Release|x64.Build.0 = Release|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.Static lib - Release|x86.ActiveCfg = Release|x64
+		{90C36D2B-31F9-382D-804D-6AD6CA9E78DC}.Static lib - Release|x86.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
