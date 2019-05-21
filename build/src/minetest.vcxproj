@@ -43,14 +43,14 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\bin\Debug</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">minetest.dir\Debug\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">minetest</TargetName>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\run\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">minetest.dir\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">minetestd</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\bin\Release\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">minetest.dir\Release\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\run\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">minetest.dir\$(Configuration)\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">minetest</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
@@ -91,11 +91,11 @@
     </Midl>
     <Link>
       <AdditionalDependencies>..\..\..\irrlicht\lib\Win64-visualStudio\$(Configuration)\Irrlicht.lib;..\..\..\sqlite.cmake.build\build\Debug\sqlite3-static.lib;..\lib\lua\build\Debug\lua.lib;..\lib\gmp\Debug\gmp.lib;..\lib\jsoncpp\Debug\jsoncpp.lib;ws2_32.lib;version.lib;shlwapi.lib;dbghelp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>../../../zlib/build/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>../../../bin/$(Configuration)/minetest.lib</ImportLibrary>
+      <ImportLibrary>$(Configuration)/minetest.lib</ImportLibrary>
       <ProgramDataBaseFile>../../../bin/$(Configuration)/minetest.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -146,13 +146,13 @@
     </Midl>
     <Link>
       <AdditionalDependencies>..\..\..\irrlicht\lib\Win64-visualStudio\$(Configuration)\Irrlicht.lib;..\..\..\sqlite.cmake.build\build\Release\sqlite3-static.lib;..\lib\lua\build\Release\lua.lib;..\lib\gmp\Release\gmp.lib;..\lib\jsoncpp\Release\jsoncpp.lib;ws2_32.lib;version.lib;shlwapi.lib;dbghelp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>../../../zlib/build/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>../../../bin/$(Configuration)/minetest.lib</ImportLibrary>
+      <ImportLibrary>$(Configuration)/minetest.lib</ImportLibrary>
       <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
       <OptimizeReferences>true</OptimizeReferences>
       <ProgramDataBaseFile>../../../bin/$(Configuration)/minetest.pdb</ProgramDataBaseFile>

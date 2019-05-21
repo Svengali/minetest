@@ -47,6 +47,9 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 #include "gui/mainmenumanager.h"
 #endif
 
+#include <corecrt_malloc.h>
+//#include <malloc.h>
+
 #ifdef HAVE_TOUCHSCREENGUI
 	#include "gui/touchscreengui.h"
 #endif
@@ -63,19 +66,20 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 
 size_t getSize( void *_Block )
 {
-    return _msize( _Block );
+    return _msize_base( _Block );
 }
 
 
 extern "C" {
 
+    /*
 size_t _msize(_Pre_notnull_ void *_Block)
 {
 
     return getSize(_Block);
 
 }
-
+*/
 }
 
 
