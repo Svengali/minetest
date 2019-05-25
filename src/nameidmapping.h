@@ -83,7 +83,7 @@ public:
 		result = i->second;
 		return true;
 	}
-	u16 size() const { return m_id_to_name.size(); }
+	u16 size() const { return (u16)m_id_to_name.size(); }
 
 private:
 	IdToNameMap m_id_to_name;

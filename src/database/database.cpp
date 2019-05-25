@@ -59,11 +59,11 @@ s64 MapDatabase::getBlockAsInteger(const v3s16 &pos)
 v3s16 MapDatabase::getIntegerAsBlock(s64 i)
 {
 	v3s16 pos;
-	pos.X = unsigned_to_signed(pythonmodulo(i, 4096), 2048);
+	pos.X = unsigned_to_signed((s16)pythonmodulo(i, 4096), 2048);
 	i = (i - pos.X) / 4096;
-	pos.Y = unsigned_to_signed(pythonmodulo(i, 4096), 2048);
+	pos.Y = unsigned_to_signed((s16)pythonmodulo(i, 4096), 2048);
 	i = (i - pos.Y) / 4096;
-	pos.Z = unsigned_to_signed(pythonmodulo(i, 4096), 2048);
+	pos.Z = unsigned_to_signed((s16)pythonmodulo(i, 4096), 2048);
 	return pos;
 }
 

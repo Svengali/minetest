@@ -78,5 +78,5 @@ inline u8 blend_light(u32 daylight_factor, u8 lightday, u8 lightnight)
 	u32 l = ((daylight_factor * lightday + (c - daylight_factor) * lightnight)) / c;
 	if (l > LIGHT_SUN)
 		l = LIGHT_SUN;
-	return l;
+	return (u8)l;
 }

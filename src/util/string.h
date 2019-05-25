@@ -287,7 +287,7 @@ inline std::string lowercase(const std::string &str)
 	s2.reserve(str.size());
 
 	for (char i : str)
-		s2 += tolower(i);
+		s2 += (char)tolower(i);
 
 	return s2;
 }
@@ -381,7 +381,7 @@ inline s32 mystoi(const std::wstring &str)
  */
 inline float mystof(const std::string &str)
 {
-	return atof(str.c_str());
+	return (float)atof(str.c_str());
 }
 
 //#endif

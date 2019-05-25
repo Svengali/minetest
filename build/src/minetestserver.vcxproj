@@ -76,6 +76,7 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <EnableEnhancedInstructionSet>AdvancedVectorExtensions</EnableEnhancedInstructionSet>
       <FloatingPointModel>Fast</FloatingPointModel>
+      <DisableSpecificWarnings>4100</DisableSpecificWarnings>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_DEPRECATE;_USE_MATH_DEFINES;NOMINMAX;SERVER;USE_CMAKE_CONFIG_H;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -131,6 +132,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <DisableSpecificWarnings>4100</DisableSpecificWarnings>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32_LEAN_AND_MEAN;NDEBUG;_HAS_ITERATOR_DEBUGGING=0;_CRT_SECURE_NO_DEPRECATE;_USE_MATH_DEFINES;NOMINMAX;SERVER;USE_CMAKE_CONFIG_H;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -366,20 +368,20 @@
     <ResourceCompile Include="..\..\misc\winresource.rc" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\cblib\cblib.vcxproj">
+      <Project>{428c5bd5-d039-4373-81a2-42233350d84b}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\irrlicht\source\Irrlicht\Irrlicht15.0.vcxproj">
       <Project>{dd5c43cb-34a8-409b-9010-5a5a52787552}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Pham\Pham.vcxproj">
+      <Project>{66091708-83e0-4556-a9cb-10518ebbd7d6}</Project>
     </ProjectReference>
     <ProjectReference Include="..\..\..\sqlite.cmake.build\build\sqlite3-static.vcxproj">
       <Project>{90c36d2b-31f9-382d-804d-6ad6ca9e78dc}</Project>
     </ProjectReference>
     <ProjectReference Include="..\..\..\zlib\build\zlib.vcxproj">
       <Project>{67175116-a72e-3bd1-945f-7d24a1e28530}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\..\build\ZERO_CHECK.vcxproj">
-      <Project>{111C64B5-6170-3DDE-A73B-A73E1256EFEB}</Project>
-      <Name>ZERO_CHECK</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
     <ProjectReference Include="..\..\build\src\GenerateVersion.vcxproj">
       <Project>{EF1613D2-DFD8-3B9D-BF64-7034B0E28CC6}</Project>
