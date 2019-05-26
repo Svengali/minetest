@@ -50,7 +50,7 @@ public:
 	void putRawString(const char *src, u32 len);
 	void putRawString(const std::string &src)
 	{
-		putRawString(src.c_str(), src.size());
+		putRawString(src.c_str(), (u32)src.size());
 	}
 
 	NetworkPacket &operator>>(std::string &dst);

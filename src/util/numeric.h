@@ -261,6 +261,11 @@ inline s32 myround(f32 f)
 	return (s32)(f < 0.f ? (f - 0.5f) : (f + 0.5f));
 }
 
+inline s16 myrounds16(f32 f)
+{
+	return (s16)(f < 0.f ? (f - 0.5f) : (f + 0.5f));
+}
+
 inline constexpr f32 sqr(f32 f)
 {
 	return f * f;

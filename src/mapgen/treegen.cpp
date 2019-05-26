@@ -526,7 +526,7 @@ treegen::error make_ltree(MMVManip &vmanip, v3s16 p0,
 
 void tree_node_placement(MMVManip &vmanip, v3f p0, MapNode node)
 {
-	v3s16 p1 = v3s16(myround(p0.X), myround(p0.Y), myround(p0.Z));
+	v3s16 p1 = v3s16(myrounds16(p0.X), myrounds16(p0.Y), myrounds16(p0.Z));
 	if (!vmanip.m_area.contains(p1))
 		return;
 	u32 vi = vmanip.m_area.index(p1);
@@ -539,7 +539,7 @@ void tree_node_placement(MMVManip &vmanip, v3f p0, MapNode node)
 
 void tree_trunk_placement(MMVManip &vmanip, v3f p0, TreeDef &tree_definition)
 {
-	v3s16 p1 = v3s16(myround(p0.X), myround(p0.Y), myround(p0.Z));
+	v3s16 p1 = v3s16(myrounds16(p0.X), myrounds16(p0.Y), myrounds16(p0.Z));
 	if (!vmanip.m_area.contains(p1))
 		return;
 	u32 vi = vmanip.m_area.index(p1);
@@ -559,7 +559,7 @@ void tree_leaves_placement(MMVManip &vmanip, v3f p0,
 	MapNode leavesnode = tree_definition.leavesnode;
 	if (ps.range(1, 100) > 100 - tree_definition.leaves2_chance)
 		leavesnode = tree_definition.leaves2node;
-	v3s16 p1 = v3s16(myround(p0.X), myround(p0.Y), myround(p0.Z));
+	v3s16 p1 = v3s16(myrounds16(p0.X), myrounds16(p0.Y), myrounds16(p0.Z));
 	if (!vmanip.m_area.contains(p1))
 		return;
 	u32 vi = vmanip.m_area.index(p1);
@@ -583,7 +583,7 @@ void tree_single_leaves_placement(MMVManip &vmanip, v3f p0,
 	MapNode leavesnode = tree_definition.leavesnode;
 	if (ps.range(1, 100) > 100 - tree_definition.leaves2_chance)
 		leavesnode = tree_definition.leaves2node;
-	v3s16 p1 = v3s16(myround(p0.X), myround(p0.Y), myround(p0.Z));
+	v3s16 p1 = v3s16(myrounds16(p0.X), myrounds16(p0.Y), myrounds16(p0.Z));
 	if (!vmanip.m_area.contains(p1))
 		return;
 	u32 vi = vmanip.m_area.index(p1);
@@ -596,7 +596,7 @@ void tree_single_leaves_placement(MMVManip &vmanip, v3f p0,
 
 void tree_fruit_placement(MMVManip &vmanip, v3f p0, TreeDef &tree_definition)
 {
-	v3s16 p1 = v3s16(myround(p0.X), myround(p0.Y), myround(p0.Z));
+	v3s16 p1 = v3s16(myrounds16(p0.X), myrounds16(p0.Y), myrounds16(p0.Z));
 	if (!vmanip.m_area.contains(p1))
 		return;
 	u32 vi = vmanip.m_area.index(p1);

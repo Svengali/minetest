@@ -53,7 +53,7 @@ public:
 		return (unsigned)(m_next / 65536) % (RANDOM_RANGE + 1);
 	}
 
-	inline int range(int min, int max)
+	inline u32 range(const u32 min, const u32 max)
 	{
 		if (max < min)
 			throw PrngException("Invalid range (max < min)");
@@ -68,6 +68,73 @@ public:
 
 		return (next() % (max - min + 1)) + min;
 	}
+
+	inline s32 range(const s32 min, const s32 max)
+	{
+		if (max < min)
+			throw PrngException("Invalid range (max < min)");
+		/*
+		Here, we ensure the range is not too large relative to RANDOM_MAX,
+		as otherwise the effects of bias would become noticable.  Unlike
+		PcgRandom, we cannot modify this RNG's range as it would change the
+		output of this RNG for reverse compatibility.
+		*/
+		if ((u32)(max - min) > (RANDOM_RANGE + 1) / 10)
+			throw PrngException("Range too large");
+
+		return (next() % (max - min + 1)) + min;
+	}
+
+	inline s16 range(const s16 min, const s16 max)
+	{
+		if (max < min)
+			throw PrngException("Invalid range (max < min)");
+		/*
+		Here, we ensure the range is not too large relative to RANDOM_MAX,
+		as otherwise the effects of bias would become noticable.  Unlike
+		PcgRandom, we cannot modify this RNG's range as it would change the
+		output of this RNG for reverse compatibility.
+		*/
+		if ((u32)(max - min) > (RANDOM_RANGE + 1) / 10)
+			throw PrngException("Range too large");
+
+		return (next() % (max - min + 1)) + min;
+	}
+
+
+	inline s16 range(const s16 min, const s32 max)
+	{
+		if (max < min)
+			throw PrngException("Invalid range (max < min)");
+		/*
+		Here, we ensure the range is not too large relative to RANDOM_MAX,
+		as otherwise the effects of bias would become noticable.  Unlike
+		PcgRandom, we cannot modify this RNG's range as it would change the
+		output of this RNG for reverse compatibility.
+		*/
+		if ((u32)(max - min) > (RANDOM_RANGE + 1) / 10)
+			throw PrngException("Range too large");
+
+		return (next() % (max - min + 1)) + min;
+	}
+
+    
+	inline s16 range(const s32 min, const s16 max)
+	{
+		if (max < min)
+			throw PrngException("Invalid range (max < min)");
+		/*
+		Here, we ensure the range is not too large relative to RANDOM_MAX,
+		as otherwise the effects of bias would become noticable.  Unlike
+		PcgRandom, we cannot modify this RNG's range as it would change the
+		output of this RNG for reverse compatibility.
+		*/
+		if ((u32)(max - min) > (RANDOM_RANGE + 1) / 10)
+			throw PrngException("Range too large");
+
+		return (next() % (max - min + 1)) + min;
+	}
+
 
 private:
 	int m_next;

@@ -486,7 +486,7 @@ void DungeonGen::makeCorridor(v3s16 doorplace, v3s16 doordir,
 			dir = turn_xz(dir, random.range(0, 1));
 			make_stairs = -make_stairs;
 			partcount = 0;
-			partlength = random.range(1, length);
+			partlength = random.range((u32)1, length);
 			continue;
 		}
 
@@ -496,7 +496,7 @@ void DungeonGen::makeCorridor(v3s16 doorplace, v3s16 doordir,
 
 			random_turn(random, dir);
 
-			partlength = random.range(1, length);
+			partlength = random.range((u32)1, length);
 
 			make_stairs = 0;
 			if (random.next() % 2 == 0 && partlength >= 3)

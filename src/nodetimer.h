@@ -70,7 +70,7 @@ public:
 		if (n == m_iterators.end())
 			return NodeTimer();
 		NodeTimer t = n->second->second;
-		t.elapsed = t.timeout - (n->second->first - m_time);
+		t.elapsed = t.timeout - (f32)(n->second->first - m_time);
 		return t;
 	}
 	// Deletes timer

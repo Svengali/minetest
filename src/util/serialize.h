@@ -306,7 +306,7 @@ inline void writeS64(u8 *data, s64 i)
 inline void writeF1000(u8 *data, f32 i)
 {
 	assert(i >= F1000_MIN && i <= F1000_MAX);
-	writeS32(data, i * FIXEDPOINT_FACTOR);
+	writeS32(data, (s32)(i * FIXEDPOINT_FACTOR));
 }
 
 inline void writeF32(u8 *data, f32 i)
@@ -632,7 +632,7 @@ inline void putS64(std::vector<u8> *dest, s64 val)
 
 inline void putF1000(std::vector<u8> *dest, f32 val)
 {
-	putS32(dest, val * FIXEDPOINT_FACTOR);
+	putS32(dest, (s32)(val * FIXEDPOINT_FACTOR));
 }
 
 inline void putV2S16(std::vector<u8> *dest, v2s16 val)
@@ -678,7 +678,7 @@ inline void putString(std::vector<u8> *dest, const std::string &val)
 	if (val.size() > STRING_MAX_LEN)
 		throw SerializationError("String too long");
 
-	putU16(dest, val.size());
+	putU16(dest, (u16)val.size());
 	dest->insert(dest->end(), val.begin(), val.end());
 }
 
@@ -687,7 +687,7 @@ inline void putWideString(std::vector<u8> *dest, const std::wstring &val)
 	if (val.size() > WIDE_STRING_MAX_LEN)
 		throw SerializationError("String too long");
 
-	putU16(dest, val.size());
+	putU16(dest, (u16)val.size());
 	for (size_t i = 0; i != val.size(); i++)
 		putU16(dest, val[i]);
 }
@@ -697,7 +697,7 @@ inline void putLongString(std::vector<u8> *dest, const std::string &val)
 	if (val.size() > LONG_STRING_MAX_LEN)
 		throw SerializationError("String too long");
 
-	putU32(dest, val.size());
+	putU32(dest, (u32)val.size());
 	dest->insert(dest->end(), val.begin(), val.end());
 }
 
