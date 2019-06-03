@@ -993,14 +993,19 @@ void Server::AsyncRunStep(bool initial_step)
 	m_shutdown_state.tick(dtime, this);
 }
 
-void Server::Receive()
+bool Server::Receive()
 {
 	session_t peer_id = 0;
 	try {
 		NetworkPacket pkt;
-		m_con->Receive(&pkt);
-		peer_id = pkt.getPeerId();
-		ProcessData(&pkt);
+		const auto recvData = m_con->Receive(&pkt);
+
+        if( recvData ) {
+			peer_id = pkt.getPeerId();
+			ProcessData(&pkt);
+
+            return true;
+		}
 	} catch (const con::InvalidIncomingDataException &e) {
 		infostream << "Server::Receive(): InvalidIncomingDataException: what()="
 				<< e.what() << std::endl;
@@ -1014,6 +1019,8 @@ void Server::Receive()
 	} catch (const con::PeerNotFoundException &e) {
 		// Do nothing
 	}
+
+    return false;
 }
 
 PlayerSAO* Server::StageTwoClientInit(session_t peer_id)

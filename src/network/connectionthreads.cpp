@@ -1179,6 +1179,8 @@ SharedBuffer<u8> ConnectionReceiveThread::handlePacketType_Control(Channel *chan
 			channel->UpdatePacketTooLateCounter();
 		}
 
+        // TODO MH OPTIMIZATION .:. They use throw all over the place where they should be returning data.  
+
 		throw ProcessedSilentlyException("Got an ACK");
 	} else if (controltype == CONTROLTYPE_SET_PEER_ID) {
 		// Got a packet to set our peer id

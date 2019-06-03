@@ -768,7 +768,7 @@ public:
 	void Connect(Address address);
 	bool Connected();
 	void Disconnect();
-	void Receive(NetworkPacket* pkt);
+	bool Receive(NetworkPacket* pkt);
 	void Send(session_t peer_id, u8 channelnum, NetworkPacket *pkt, bool reliable);
 	session_t GetPeerID() const { return m_peer_id; }
 	Address GetPeerAddress(session_t peer_id);

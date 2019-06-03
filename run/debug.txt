@@ -133,3 +133,152 @@
 2019-05-21 10:23:06: ACTION[Server]: singleplayer places node default:dirt at (-559,22,-370)
 2019-05-21 10:23:07: ACTION[Server]: singleplayer places node default:dirt at (-559,22,-371)
 2019-05-21 10:23:39: ACTION[Main]: Server: Shutting down
+
+
+-------------
+  Separator
+-------------
+
+2019-06-02 16:53:29: [Main]: Automatically selecting world at [C:\prg\candlecove2\custom\minetest\build\src\..\..\run\bin\..\worlds\Server]
+2019-06-02 16:56:54: ACTION[Main]: World at [C:\prg\candlecove2\custom\minetest\build\src\..\..\run\bin\..\worlds\Generate_01]
+2019-06-02 16:56:54: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:51121.
+2019-06-02 16:56:55: WARNING[Main]: Irrlicht: Could not create ITexture, texture needs to have a non-empty name.
+2019-06-02 16:56:56: ACTION[Server]: singleplayer [127.0.0.1] joins game. 
+2019-06-02 16:56:56: ACTION[Server]: singleplayer joins game. List of players: singleplayer
+2019-06-02 16:56:57: WARNING[Server]: active block modifiers took 400ms (longer than 200ms)
+2019-06-02 16:56:59: WARNING[Server]: active block modifiers took 551ms (longer than 200ms)
+2019-06-02 16:57:04: WARNING[Server]: active block modifiers took 632ms (longer than 200ms)
+2019-06-02 16:57:09: WARNING[Server]: active block modifiers took 506ms (longer than 200ms)
+2019-06-02 16:57:13: WARNING[Server]: active block modifiers took 463ms (longer than 200ms)
+2019-06-02 16:57:14: ACTION[Server]: singleplayer digs default:snow at (117,18,155)
+2019-06-02 16:57:16: ACTION[Server]: singleplayer digs default:dirt_with_snow at (117,17,155)
+2019-06-02 16:57:17: WARNING[Server]: active block modifiers took 214ms (longer than 200ms)
+2019-06-02 16:57:19: ACTION[Server]: singleplayer digs default:snow at (116,18,155)
+2019-06-02 16:57:32: WARNING[Server]: active block modifiers took 281ms (longer than 200ms)
+2019-06-02 16:57:42: ACTION[Server]: singleplayer digs default:snow at (132,25,107)
+2019-06-02 16:58:16: WARNING[Server]: active block modifiers took 201ms (longer than 200ms)
+2019-06-02 16:58:46: WARNING[Server]: active block modifiers took 212ms (longer than 200ms)
+2019-06-02 16:58:58: WARNING[Server]: active block modifiers took 224ms (longer than 200ms)
+2019-06-02 16:59:04: WARNING[Server]: active block modifiers took 238ms (longer than 200ms)
+2019-06-02 16:59:08: WARNING[Server]: active block modifiers took 231ms (longer than 200ms)
+2019-06-02 16:59:28: ACTION[Server]: singleplayer damaged by 6 hp at (83.704,-4.422,359.244)
+2019-06-02 16:59:29: WARNING[Server]: active block modifiers took 216ms (longer than 200ms)
+2019-06-02 16:59:39: ACTION[Server]: singleplayer digs default:dirt at (74,0,357)
+2019-06-02 16:59:39: ACTION[Server]: singleplayer digs default:dirt at (74,1,357)
+2019-06-02 16:59:44: ACTION[Server]: singleplayer digs default:dirt_with_snow at (74,1,358)
+2019-06-02 16:59:47: ACTION[Server]: singleplayer digs default:dirt at (74,2,357)
+2019-06-02 16:59:51: ACTION[Server]: singleplayer places node default:dirt at (74,1,358)
+2019-06-02 16:59:55: ACTION[Server]: singleplayer places node default:dirt at (74,2,358)
+2019-06-02 16:59:57: ACTION[Server]: singleplayer places node default:dirt at (74,3,358)
+2019-06-02 16:59:59: ACTION[Server]: singleplayer digs default:dirt at (73,5,358)
+2019-06-02 17:00:00: ACTION[Server]: singleplayer digs default:dirt_with_snow at (73,6,358)
+2019-06-02 17:00:03: ACTION[Server]: singleplayer digs default:dirt_with_snow at (72,6,358)
+2019-06-02 17:00:20: WARNING[Server]: active block modifiers took 217ms (longer than 200ms)
+2019-06-02 17:00:28: WARNING[Server]: active block modifiers took 216ms (longer than 200ms)
+2019-06-02 17:00:33: WARNING[Server]: active block modifiers took 233ms (longer than 200ms)
+2019-06-02 17:00:49: WARNING[Server]: active block modifiers took 232ms (longer than 200ms)
+2019-06-02 17:01:09: WARNING[Server]: active block modifiers took 248ms (longer than 200ms)
+2019-06-02 17:01:44: WARNING[Server]: active block modifiers took 205ms (longer than 200ms)
+2019-06-02 17:01:48: WARNING[Server]: active block modifiers took 240ms (longer than 200ms)
+2019-06-02 17:02:48: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-38,72,745)
+2019-06-02 17:03:23: ACTION[Main]: Server: Shutting down
+
+
+-------------
+  Separator
+-------------
+
+2019-06-02 17:09:44: [ConnectionSend]: 1596: Bind failed: No error
+2019-06-02 17:09:44: ACTION[Main]: World at [C:\prg\candlecove2\custom\minetest\build\src\..\..\run\bin\..\worlds\Generate_01]
+2019-06-02 17:09:44: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:61264.
+2019-06-02 17:09:44: ERROR[Main]: ServerError: AsyncErr: Failed to bind socket (port already in use?)
+2019-06-02 17:09:44: ACTION[Main]: Server: Shutting down
+2019-06-02 17:09:56: ACTION[Main]: World at [C:\prg\candlecove2\custom\minetest\build\src\..\..\run\bin\..\worlds\Generate_01]
+2019-06-02 17:09:56: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:54221.
+2019-06-02 17:09:59: WARNING[Main]: Irrlicht: Could not create ITexture, texture needs to have a non-empty name.
+2019-06-02 17:10:00: ACTION[Server]: singleplayer [127.0.0.1] joins game. 
+2019-06-02 17:10:00: ACTION[Server]: singleplayer joins game. List of players: singleplayer
+2019-06-02 17:10:03: WARNING[Server]: active block modifiers took 825ms (longer than 200ms)
+2019-06-02 17:11:10: ACTION[Server]: singleplayer damaged by 6 hp at (-60.645,74.793,748.393)
+2019-06-02 17:11:11: ACTION[Server]: singleplayer damaged by 5 hp at (-64.063,66.082,750.174)
+2019-06-02 17:11:12: WARNING[Server]: active block modifiers took 236ms (longer than 200ms)
+2019-06-02 17:11:30: WARNING[Server]: active block modifiers took 209ms (longer than 200ms)
+2019-06-02 17:11:34: WARNING[Server]: active block modifiers took 264ms (longer than 200ms)
+2019-06-02 17:14:07: ACTION[Server]: singleplayer places node default:snow at (-415,6,695)
+2019-06-02 17:14:07: ACTION[Server]: singleplayer places node default:snow at (-415,6,695)
+2019-06-02 17:14:07: ACTION[Server]: singleplayer places node default:snow at (-415,6,695)
+2019-06-02 17:14:13: ACTION[Server]: singleplayer places node default:dirt at (-415,7,694)
+2019-06-02 17:14:13: ACTION[Server]: singleplayer places node default:dirt at (-415,7,695)
+2019-06-02 17:14:15: ACTION[Server]: singleplayer digs default:dirt at (-415,7,695)
+2019-06-02 17:14:16: ACTION[Server]: singleplayer digs default:snow at (-415,6,695)
+2019-06-02 17:14:17: ACTION[Server]: singleplayer digs default:dirt at (-415,7,694)
+2019-06-02 17:14:18: ACTION[Server]: singleplayer digs default:desert_sand at (-415,6,694)
+2019-06-02 17:14:20: ACTION[Server]: singleplayer digs default:desert_sand at (-415,6,693)
+2019-06-02 17:14:21: ACTION[Server]: singleplayer digs default:desert_sand at (-415,6,692)
+2019-06-02 17:14:23: ACTION[Server]: singleplayer places node default:dirt at (-414,7,692)
+2019-06-02 17:14:30: ACTION[Server]: singleplayer places node default:dirt at (-415,7,691)
+2019-06-02 17:14:32: ACTION[Server]: singleplayer places node default:dirt at (-416,7,692)
+2019-06-02 17:14:33: ACTION[Server]: singleplayer places node default:dirt at (-416,7,693)
+2019-06-02 17:14:37: ACTION[Server]: singleplayer places node default:dirt at (-414,7,693)
+2019-06-02 17:14:39: ACTION[Server]: singleplayer places node default:dirt at (-414,7,694)
+2019-06-02 17:14:45: ACTION[Server]: singleplayer digs default:desert_sand at (-418,6,692)
+2019-06-02 17:14:46: ACTION[Server]: singleplayer digs default:desert_sand at (-418,6,691)
+2019-06-02 17:14:49: ACTION[Server]: singleplayer digs default:desert_sand at (-419,6,691)
+2019-06-02 17:14:54: ACTION[Server]: singleplayer places node default:desert_sand at (-416,7,694)
+2019-06-02 17:14:59: ACTION[Server]: singleplayer places node default:desert_sand at (-415,8,691)
+2019-06-02 17:15:00: ACTION[Server]: singleplayer places node default:desert_sand at (-415,8,692)
+2019-06-02 17:15:03: ACTION[Server]: singleplayer places node default:desert_sand at (-415,7,692)
+2019-06-02 17:15:04: ACTION[Server]: singleplayer digs default:desert_sand at (-415,7,692)
+2019-06-02 17:15:05: ACTION[Server]: singleplayer digs default:desert_sand at (-415,6,692)
+2019-06-02 17:15:10: ACTION[Server]: singleplayer digs default:dirt_with_dry_grass at (-411,5,700)
+2019-06-02 17:15:12: ACTION[Server]: singleplayer digs default:desert_sand at (-410,4,701)
+2019-06-02 17:15:14: ACTION[Server]: singleplayer digs default:dirt at (-411,4,700)
+2019-06-02 17:15:16: ACTION[Server]: singleplayer digs default:dirt_with_dry_grass at (-411,5,699)
+2019-06-02 17:15:17: ACTION[Server]: singleplayer digs default:dirt_with_dry_grass at (-412,5,700)
+2019-06-02 17:15:18: ACTION[Server]: singleplayer digs default:dirt at (-411,4,699)
+2019-06-02 17:15:20: ACTION[Server]: singleplayer digs default:dirt at (-412,4,700)
+2019-06-02 17:15:21: ACTION[Server]: singleplayer digs default:dirt_with_dry_grass at (-412,5,699)
+2019-06-02 17:15:22: ACTION[Server]: singleplayer digs default:dirt at (-412,4,699)
+2019-06-02 17:15:23: ACTION[Server]: singleplayer digs default:dirt at (-412,4,698)
+2019-06-02 17:15:25: ACTION[Server]: singleplayer digs default:dirt at (-413,4,699)
+2019-06-02 17:15:26: ACTION[Server]: singleplayer digs default:dirt_with_dry_grass at (-413,5,699)
+2019-06-02 17:15:27: ACTION[Server]: singleplayer digs default:dirt_with_dry_grass at (-412,5,698)
+2019-06-02 17:15:30: ACTION[Server]: singleplayer digs default:dirt_with_dry_grass at (-413,5,698)
+2019-06-02 17:15:37: ACTION[Server]: singleplayer places node default:dirt at (-415,8,692)
+2019-06-02 17:15:41: ACTION[Server]: singleplayer places node default:dirt at (-415,8,693)
+2019-06-02 17:15:43: ACTION[Server]: singleplayer places node default:dirt at (-415,8,694)
+2019-06-02 17:15:50: ACTION[Server]: singleplayer places node default:dirt at (-415,6,695)
+
+
+-------------
+  Separator
+-------------
+
+2019-06-02 20:04:01: ACTION[Main]: World at [C:\prg\candlecove2\custom\minetest\build\src\..\..\run\bin\..\worlds\Generate_01]
+2019-06-02 20:04:01: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:55513.
+2019-06-02 20:04:03: WARNING[Main]: Irrlicht: Could not create ITexture, texture needs to have a non-empty name.
+2019-06-02 20:04:03: ACTION[Server]: singleplayer [127.0.0.1] joins game. 
+2019-06-02 20:04:03: ACTION[Server]: singleplayer joins game. List of players: singleplayer
+2019-06-02 20:04:06: WARNING[Server]: active block modifiers took 833ms (longer than 200ms)
+
+
+-------------
+  Separator
+-------------
+
+2019-06-02 20:11:00: ACTION[Main]: World at [C:\prg\candlecove2\custom\minetest\build\src\..\..\run\bin\..\worlds\Generate_01]
+2019-06-02 20:11:00: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:52140.
+2019-06-02 20:11:10: WARNING[Main]: Irrlicht: Could not create ITexture, texture needs to have a non-empty name.
+
+
+-------------
+  Separator
+-------------
+
+2019-06-02 20:30:17: ACTION[Main]: World at [C:\prg\candlecove2\custom\minetest\build\src\..\..\run\bin\..\worlds\Generate_01]
+2019-06-02 20:30:17: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:50036.
+2019-06-02 20:30:19: WARNING[Main]: Irrlicht: Could not create ITexture, texture needs to have a non-empty name.
+2019-06-02 20:30:39: ACTION[Server]: singleplayer [127.0.0.1] joins game. 
+2019-06-02 20:30:39: ACTION[Server]: singleplayer joins game. List of players: singleplayer
+2019-06-02 20:30:40: WARNING[Server]: active block modifiers took 295ms (longer than 200ms)
+2019-06-02 20:30:43: WARNING[Server]: active block modifiers took 503ms (longer than 200ms)

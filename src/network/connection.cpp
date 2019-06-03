@@ -1246,7 +1246,15 @@ bool Connection::deletePeer(session_t peer_id, bool timeout)
 ConnectionEvent Connection::waitEvent(u32 timeout_ms)
 {
 	try {
-		return m_event_queue.pop_front(timeout_ms);
+        if( !m_event_queue.empty() ) 
+        {
+			return m_event_queue.pop_front(timeout_ms);
+		} else {
+		    ConnectionEvent e;
+		    e.type = CONNEVENT_NONE;
+		    return e;
+    	}
+
 	} catch(ItemNotFoundException &ex) {
 		ConnectionEvent e;
 		e.type = CONNEVENT_NONE;
@@ -1300,7 +1308,7 @@ void Connection::Disconnect()
 	putCommand(c);
 }
 
-void Connection::Receive(NetworkPacket* pkt)
+bool Connection::Receive(NetworkPacket* pkt)
 {
 	for(;;) {
 		ConnectionEvent e = waitEvent(m_bc_receive_timeout);
@@ -1309,7 +1317,7 @@ void Connection::Receive(NetworkPacket* pkt)
 					<< e.describe() << std::endl);
 		switch(e.type) {
 		case CONNEVENT_NONE:
-			throw NoIncomingDataException("No incoming data");
+            return false;
 		case CONNEVENT_DATA_RECEIVED:
 			// Data size is lesser than command size, ignoring packet
 			if (e.data.getSize() < 2) {
@@ -1317,7 +1325,7 @@ void Connection::Receive(NetworkPacket* pkt)
 			}
 
 			pkt->putRawPacket(*e.data, e.data.getSize(), e.peer_id);
-			return;
+			return true;
 		case CONNEVENT_PEER_ADDED: {
 			UDPPeer tmp(e.peer_id, e.address, this);
 			if (m_bc_peerhandler)
@@ -1335,6 +1343,7 @@ void Connection::Receive(NetworkPacket* pkt)
 					"(port already in use?)");
 		}
 	}
+
 	throw NoIncomingDataException("No incoming data");
 }
 
